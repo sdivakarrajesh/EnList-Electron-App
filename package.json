@@ -1,0 +1,23 @@
+{
+  "name": "shoppinglist-electron-app",
+  "version": "1.0.0",
+  "description": "A Typical Shopping List application build with ElectronJS",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdivakarrajesh/ShoppingList-Electron-App.git"
+  },
+  "author": "Divakar Rajesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sdivakarrajesh/ShoppingList-Electron-App/issues"
+  },
+  "homepage": "https://github.com/sdivakarrajesh/ShoppingList-Electron-App#readme",
+  "dependencies": {
+    "electron": "^3.0.2"
+  }
+}
