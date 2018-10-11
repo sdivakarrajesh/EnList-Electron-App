@@ -1,2 +1,2 @@
-# ShoppingList-Electron-App
+# EnList-Electron-App
 A Typical Shopping List application build with ElectronJS 
