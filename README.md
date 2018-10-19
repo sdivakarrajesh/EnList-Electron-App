@@ -1,13 +1,13 @@
 # EnList-Electron-App
 A Typical Shopping List application build with ElectronJS 
 
-## Instructions
+# Instructions
 
 ## Running Locally
 
-Install node.js
-Clone the repository and browse into it using PowerShell(for windows) or Terminal(for Mac or Linux)
-Then
+- Install node.js
+- Clone the repository and browse into it using PowerShell(for windows) or Terminal(for Mac or Linux)
+- Then,
 ```
 npm install
 npm start
@@ -20,7 +20,7 @@ To build the application for all the platforms(Windows,Linux and MacOS), cd into
 npm build-all
 ```
 
-## License
+# License
 
     Copyright 2018 DIVAKAR RAJESH S
 
