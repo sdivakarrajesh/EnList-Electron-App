@@ -1,33 +1,22 @@
-.myspinner{
-    position: relative;
-    display: inline-block;
-    vertical-align: middle;
+
+.spinner2{
+    position: absolute;
     width: 64px;
     height: 64px;
-    border-radius: 64px;
-}
-.myspinner::before{
-    position: absolute;
+    border-radius: 50%;
+    border: 8px solid transparent;
     content: "";
-    width: 64px;
-    height:64px;
-    border-radius: 64px;
-    color: #323b40;
-    box-shadow: inset -5px 0 0 5px currentColor;
-    clip: rect(0,64px,32px,0);
-    animation: rotator 1s infinite linear;
+    top: 50%;
+    left:50%;
+    margin-left: -32px;
+    margin-top: -32px;    
+    border: 8px solid rgb(238, 238, 238);
+    border-top-color: black;
+    animation: spinner 1s ease-in-out 0.2s infinite;
 }
-@keyframes rotator{
-    0%{
-        transform: rotate(-180deg);
-        box-shadow: inset -5px 0 0 5px currentColor;
-    }
-    50%{
-        transform: rotate(0deg);
-        box-shadow: inset -1px 0 0 1px currentColor;
-    }
-    100%{
-        transform: rotate(180deg);
-        box-shadow: inset -5px 0 0 5px currentColor;
-    }
+@keyframes spinner{
+to{
+    transform: rotate(360deg);
 }
+}
+
